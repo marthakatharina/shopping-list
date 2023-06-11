@@ -25,7 +25,7 @@ function addToList() {
 function createNewItem(val) {
     let text = document.getElementById("content");
     let newItem = document.createElement("div");
-    newItem.textContent = val;
+    newItem.textContent = val.trim();
     newItem.className = "item";
 
     const svg = `<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
