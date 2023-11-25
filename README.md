@@ -1,6 +1,4 @@
 # shopping-list
-<img src="https://cdn.dribbble.com/userupload/11587838/file/original-0b74953502606668d9c66ce8ec153a6c.gif" alt="" width="640" height="auto" >
-
 
 You can use the web app on your mobile phone by adding it to your home screen.
 
