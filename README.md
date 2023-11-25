@@ -1,7 +1,6 @@
 # shopping-list
-<a href="https://cdn.dribbble.com/userupload/11587838/file/original-0b74953502606668d9c66ce8ec153a6c.gif" target="_blank"><img src="https://cdn.dribbble.com/userupload/11587838/file/original-0b74953502606668d9c66ce8ec153a6c.gif" alt="" width="844" height="710" ></a>
-<img src="https://cdn.dribbble.com/userupload/11587838/file/original-0b74953502606668d9c66ce8ec153a6c.gif" alt="" width="844" height="710">
-</a>
+<img src="https://cdn.dribbble.com/userupload/11587838/file/original-0b74953502606668d9c66ce8ec153a6c.gif" alt="" width="844" height="710" >
+
 
 You can use the web app on your mobile phone by adding it to your home screen.
 
