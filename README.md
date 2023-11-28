@@ -1,4 +1,4 @@
-# shopping-list
+# Shopping List
 
 You can use the web app on your mobile phone by adding it to your home screen.
 
