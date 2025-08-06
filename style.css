@@ -18,12 +18,13 @@ body {
 }
 #textInput {
     height: 44px;
+    font-size: 16px;
     max-width: 100%;
     flex-grow: 1;
     border: none;
     padding: 4px 4px 4px 1rem;
     border-radius: 40px;
-    outline: none;
+    /* outline: none; */
 }
 
 .btn {
