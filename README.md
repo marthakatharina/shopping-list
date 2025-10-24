@@ -1,5 +1,9 @@
 # Shopping List
 
+No fuss - just a reusable digital notes paper!
+
+---
+
 You can use the web app on your mobile phone by adding it to your home screen.
 
 Try it on <a href="https://marthakatharina.github.io/shopping-list/" target="_blank">GitHub Pages</a>

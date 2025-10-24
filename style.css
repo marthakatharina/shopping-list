@@ -24,7 +24,7 @@ body {
     border: none;
     padding: 4px 4px 4px 1rem;
     border-radius: 40px;
-    /* outline: none; */
+    outline: none;
 }
 
 .btn {
