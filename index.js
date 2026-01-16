@@ -39,7 +39,7 @@ function createNewItem(val, isStrikethrough = false) {
         btnElement.className = "btn minus-btn";
         newItem.classList.add("strikethrough");
 
-        const minusSvg = `<svg width="28" height="28" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        const minusSvg = `<svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             
 <title/>
 
@@ -59,7 +59,7 @@ function createNewItem(val, isStrikethrough = false) {
         btnElement.className = "btn empty-btn";
 
         // Empty SVG (same structure as minus-btn but without the line)
-        const emptySvg = `<svg width="28" height="28" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        const emptySvg = `<svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             
 <title/>
 
@@ -92,7 +92,7 @@ function createNewItem(val, isStrikethrough = false) {
                 btnElement.classList.remove("empty-btn");
                 btnElement.classList.add("minus-btn");
 
-                const svg = `<svg width="28" height="28" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                const svg = `<svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             
 <title/>
 
