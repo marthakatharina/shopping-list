@@ -5,8 +5,10 @@
 }
 
 body {
-    background-color: #b7b7b7;
-    background-image: url("images/basket-svgrepo-com.svg");
+    /* background-color: #b7b7b7; */
+    /* background-image: url("images/basket-svgrepo-com.svg"); */
+    background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+    min-height: 100vh;
 }
 .wrapper {
     margin: 2rem auto auto auto;
@@ -65,24 +67,22 @@ body {
 
 .item-text {
     position: relative;
+    display: inline-block;
 }
 
-.item.strikethrough .item-text::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    height: 2px;
-    background-color: #333;
-    transform: scaleX(0);
-    transform-origin: left;
-    animation: strikethrough 0.3s ease-out forwards;
+.item.strikethrough .item-text {
+    text-decoration: line-through;
+    text-decoration-color: #333;
+    text-decoration-thickness: 2px;
+    animation: strikethrough 0.3s ease-out;
 }
 
 @keyframes strikethrough {
+    from {
+        text-decoration-color: transparent;
+    }
     to {
-        transform: scaleX(1);
+        text-decoration-color: #333;
     }
 }
 
