@@ -47,7 +47,7 @@ function createNewItem(val, isStrikethrough = false) {
 
 <g id="minus">
 
-<line fill="none" stroke="#b7b7b7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="4" x2="20" y1="12" y2="12"/>
+<line fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" x1="4" x2="20" y1="12" y2="12"/>
 
 </g>
 
@@ -100,7 +100,7 @@ function createNewItem(val, isStrikethrough = false) {
 
 <g id="minus">
 
-<line fill="none" stroke="#b7b7b7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="4" x2="20" y1="12" y2="12"/>
+<line fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" x1="4" x2="20" y1="12" y2="12"/>
 
 </g>
 
@@ -109,7 +109,7 @@ function createNewItem(val, isStrikethrough = false) {
 </svg>`;
                 btnElement.innerHTML = svg;
                 updateLocalStorage();
-            }, 600); // Match animation duration
+            }, 300); // Match animation duration
         } else if (btnElement.classList.contains("minus-btn")) {
             // Delete item when minus-btn is clicked
             newItem.remove();
