@@ -1,3 +1,3 @@
-# Responsive and Lightweight To-Do List
+# Responsive and Lightweight To-Do and Shopping List
 
 No fuss - just a reusable sticky note!
